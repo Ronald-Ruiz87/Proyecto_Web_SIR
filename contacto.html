@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Servicios Informáticos Ruiz en León, Nicaragua</title>
+    <meta name="description" content="Contácta a Ronald Ruiz de Servicios Informáticos Ruiz en León, Nicaragua. Envíanos un mensaje o llámanos al +505 - 86441898. Ubicación: Reparto La Providencia.">
+    <meta name="keywords" content="contacto, telefono, email, Ronald Ruiz, ubicacion, Leon Nicaragua, Reparto La Providencia, servicios informaticos, consulta gratuita">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Navegación Principal">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Servicios Informáticos Ruiz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="py-5 bg-light page-header">
+            <div class="container text-center">
+                <h1 class="display-4">Contáctanos</h1>
+                <p class="lead">Estamos listos para ayudarte con tus necesidades informáticas en **León, Nicaragua**.</p>
+            </div>
+        </header>
+
+        <section id="informacion-contacto" class="py-5" aria-labelledby="informacion-contacto-titulo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h2 id="informacion-contacto-titulo" class="mb-4">¡Ponte en Contacto!</h2>
+                        <p class="lead">Puedes contactarnos directamente o enviarnos un mensaje a través del formulario.</p>
+                        <address class="contact-info">
+                            <p><i class="fas fa-map-marker-alt me-3 text-primary" aria-hidden="true"></i>**León, Nicaragua**, Reparto La Providencia</p>
+                            <p><i class="fas fa-phone me-3 text-primary" aria-hidden="true"></i><a href="tel:+50586441898" class="text-decoration-none text-dark">+505 - 86441898</a></p>
+                            <p><i class="fas fa-envelope me-3 text-primary" aria-hidden="true"></i><a href="mailto:contacto@serviciosruiz.com" class="text-decoration-none text-dark">contacto@serviciosruiz.com</a></p>
+                            <p><i class="fas fa-clock me-3 text-primary" aria-hidden="true"></i>Horario de Atención: Lunes - Viernes: 8:00 AM - 5:00 PM</p>
+                        </address>
+
+                        <h3 class="mt-5 mb-3">Encuéntranos en el Mapa</h3>
+                        <div class="ratio ratio-16x9 rounded shadow-lg" role="region" aria-label="Ubicación de Servicios Informáticos Ruiz en el mapa">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d976.1121577548039!2d-86.88871633080322!3d12.44276651095841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2sni!4v1752207622484!5m2!1ses-419!2sni" 
+                                    width="600" 
+                                    height="450" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Ubicación de Servicios Informáticos Ruiz en León, Nicaragua">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-4">Envíanos un Mensaje</h2>
+                        <form name="formulario-contacto" method="POST" data-netlify="true" action="/gracias.html" aria-label="Formulario de contacto">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre Completo <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required aria-required="true">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="tu@ejemplo.com" required aria-required="true">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Número de Teléfono (Opcional)</label>
+                                <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="+505 8xxxxxxx">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Tu Mensaje <span class="text-danger">*</span></label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Describe tu consulta o problema..." required aria-required="true"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase mb-4 fw-bold">Servicios Informáticos Ruiz</h5>
+                    <p>Tu aliado tecnológico en **León, Nicaragua**. Soluciones rápidas y efectivas para tus necesidades informáticas.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase mb-4 fw-bold">Contacto</h5>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i>**León, Nicaragua**, Reparto La Providencia</p>
+                        <p><i class="fas fa-phone me-2" aria-hidden="true"></i><a href="tel:+50586441898" class="text-white text-decoration-none">+505 - 86441898</a></p>
+                        <p><i class="fas fa-envelope me-2" aria-hidden="true"></i><a href="ruiz8723@gmail.com" class="text-white text-decoration-none">ruiz8723@gmail.com</a></p>
+                    </address>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase mb-4 fw-bold">Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
+                        <li><a href="servicios.html" class="text-white text-decoration-none">Servicios</a></li>
+                        <li><a href="sobre-nosotros.html" class="text-white text-decoration-none">Sobre Nosotros</a></li>
+                        <li><a href="contacto.html" class="text-white text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="text-center">
+                <p>© 2024 **Servicios Informáticos Ruiz**. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

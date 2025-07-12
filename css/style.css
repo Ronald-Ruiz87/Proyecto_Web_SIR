@@ -1,0 +1,90 @@
+/* Importar fuentes de Google Fonts (Opcional, si quieres una fuente específica) */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    padding-top: 56px; /* Ajuste para la barra de navegación fija */
+}
+
+/* Estilos para la Hero Section de la página principal */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x1080/007bff/ffffff?text=Fondo+Tecnologico') no-repeat center center;
+    background-size: cover;
+    height: 70vh; /* Altura de la sección hero */
+    min-height: 400px;
+    position: relative;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero-section p.lead {
+    font-size: 1.5rem;
+}
+
+/* Estilo para los headers de las otras páginas (servicios, sobre nosotros, contacto) */
+.page-header {
+    margin-top: 56px; /* Ajuste para la barra de navegación fija */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f8f9fa; /* Color de fondo ligero */
+    border-bottom: 1px solid #e9ecef;
+}
+
+.page-header h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+/* Estilos para los iconos en las tarjetas de servicios */
+.card-body i {
+    font-size: 3rem; /* Tamaño más grande para los iconos */
+    margin-bottom: 1rem;
+}
+
+/* Pequeños ajustes para el footer */
+footer a {
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #0d6efd !important; /* Color primario de Bootstrap */
+}
+
+/* Estilos para la información de contacto */
+.contact-info li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact-info li i {
+    width: 25px; /* Para alinear bien los iconos */
+}
+
+/* SOLUCIÓN: Quitar el borde del iframe */
+iframe {
+    border: none;
+}
+
+/* Media Queries para responsividad adicional (si es necesario) */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+        min-height: 300px;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p.lead {
+        font-size: 1.2rem;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+}
